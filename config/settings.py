@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8719198691:AAHmEJ_7khOIdXRYEJJJaZ-kwt8xjeAZ82Q')
-TELEGRAM_API_ID = os.getenv('TELEGRAM_API_ID', '')
-TELEGRAM_API_HASH = os.getenv('TELEGRAM_API_HASH', '')
+TELEGRAM_API_ID = os.getenv('TELEGRAM_API_ID', '33029767')
+TELEGRAM_API_HASH = os.getenv('TELEGRAM_API_HASH', '5d897bed11bc8b062a12f6c1c3c5360a')
 DISKWALA_API_KEY = os.getenv('DISKWALA_API_KEY', '6a153c777996306c22105589')
 
 DOWNLOAD_DIR = os.getenv('DOWNLOAD_DIR', './downloads')
